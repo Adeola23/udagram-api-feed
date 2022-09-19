@@ -24,4 +24,4 @@ jobs:
       run: docker build . --file Dockerfile --tag ade0la/udagram-api-feed:latest
       
     - name: Docker Push
-      run: docker push ade0la/udagram-api-user:latest
+      run: docker push ade0la/udagram-api-feed:latest
